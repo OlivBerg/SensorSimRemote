@@ -1,0 +1,25 @@
+{
+  "name": "sensorsimremote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simSensor.js",
+  "scripts": {
+    "test": "node simSensor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlivBerg/SensorSimRemote.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlivBerg/SensorSimRemote/issues"
+  },
+  "homepage": "https://github.com/OlivBerg/SensorSimRemote#readme",
+  "dependencies": {
+    "@azure/arm-iothub": "^6.3.0",
+    "azure-iot-device": "^1.18.3",
+    "azure-iot-device-mqtt": "^1.16.3",
+    "dotenv": "^17.2.3"
+  }
+}
